@@ -3,6 +3,8 @@ from flask_cors import CORS
 from pymongo import MongoClient
 import redis
 
+mongodb+srv://ankit:Ankit@252@cluster0.z8ypl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 app = Flask(__name__)
 CORS(app)
 
